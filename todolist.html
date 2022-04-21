@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Todo App</title>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'> -->
+    <link rel="stylesheet" href="styles_todolist.css" type="text/css" media="screen" charset="utf-8">    
+  </head>
+  <body>
+    <h1 style="text-align:center; padding-top: 20px; color: black;">TO DO LIST</h1>
+    <div class="container">
+      
+        <p>
+        <label for="new-task" style="text-align:center;font-size:20;color:black;">Add Item</label><input id="new-task" type="text"><button>Add</button>
+        </p>
+     
+      <h3 style="text-align:center;font-size:20;">Todo</h3>
+      <ul id="incomplete-tasks">
+        <li class="editmode"><input type="checkbox"><input type="text" value="Task"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        <li class="editMode"><input type="checkbox"><input type="text" value="Task"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        
+      </ul>
+      
+      <h3 style="text-align:center;font-size:20;">Completed</h3>
+      <ul id="completed-tasks">
+        <li><input type="checkbox" checked><label>See the Doctor</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+      </ul>
+      <button onclick="window.location.href='index.html';" style="background:white; width:80;color: black;" >GO BACK</button>
+      
+      </div>
+    
+    
+ 
+
+    <script type="text/javascript" src="scripts_todolist.js"></script>
+ 
+  </body>
+</html>
